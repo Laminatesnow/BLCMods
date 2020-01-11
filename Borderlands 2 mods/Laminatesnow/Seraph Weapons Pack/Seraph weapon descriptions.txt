@@ -1,0 +1,75 @@
+This file contains all the Seraph weapons i've made, what they do, a Gibbed code, and an Imgur Link.
+
+
+The Medic
+-Replaces the Infection
+-Dahl Seraph Pistol
+-Chance to Proc Transfusion effect
+-Higher Burst
+-50% splash
+Code:
+Link:
+
+
+The Survivor
+-Replaces the Seraphim
+-Seraph Bandit Assault Rifle
+-Big Mag(as usual for Bandit Weapons)
+-Low Fire Rate
+-4 Grenades per shot, that seek an enemy
+-Boosted by grenade damage
+Code: BL2(hwAAAACrlQGAZgEAAwGFxmIIxOABUAHDIQYHDBUY/v/HAeTC8AHw)
+Link:
+
+
+The Anarchy
+-Replaces the Tattler
+-4 rounds, 4 ammo per shot
+-Horrible Accuracy
+-Horrible Recoil
+-But, It's powerful as hell.
+Code: BL2(hwAAAAB8KwFB6AAABQGFnmIpwVIBUAGLCpYGLBVY/v+7AXTCMgHw)
+Link:
+
+
+The Penetrator
+-Replaces the Patriot
+-3 pellets per shot
+-wave pattern that collides at a certain distance
+-Burst fire when Scoped
+Code:
+Link:
+
+
+The KaBLAM!
+-Seraph Bandit Rocket Launcher
+-Replaces Ahab
+-5 rockets per shot
+-Rockets deploy 1 grenade after being hit
+Code: BL2(hwAAAADpRgFDRwIAAwGFXqIAQzEGUACFG4oIFBgo/v/DAdRBQQbw)
+Link:
+
+
+The PDW
+-Seraph Tediore Pistol
+-Replaces Devastator
+-Shoots Lasers
+-Decent stats, very high reload speed
+-Deploys 5 pistol clones, instead of one, upon reload.
+Code:
+Link:
+
+
+The Painbringer
+-Replaces Seeker
+-Seraph Jakobs AR
+-Low Fire Rate
+-8 pellets per shot
+-4 ammo per shot
+- Somewhat decent Acc. at mid range
+-Also, Gatling Gun
+Code:
+Link:
+
+
+List subject to change.

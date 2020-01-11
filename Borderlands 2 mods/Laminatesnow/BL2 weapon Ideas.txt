@@ -1,0 +1,63 @@
+-WEAPONS=
+Sawdustr-Legendary Bandit Shotgun, Bandit barrel
+Alright, did somebody call the Butcher?
+Effect: Shoots 3 Sawblades(like the ones on the bandit technical) that arc and bounce off objects
+Does both melee and gun damage
+NE only
+
+Torgue Assault Rifle
+-E-Tech Barrel
+
+Cobra, with vladof1 body, and e-tech barrel
+
+Seraph tediore SMG
+Weapon steadily increases mag size, but decreases reserve (like bloodlust)
+Effect caps at 999 mag
+Slow Reload Speed
+=/WEAPONS=
+
+=GRENADES=
+Pocket-Nuke
+Seraph Tediore grenade
+Nuclear Strike successful.... World War III commencing..
+Effect: The Nukem had a baby with a Fastball.
+
+Phase-nade
+Legendary Maliwan grenade
+What the hell is that?
+Effect: when thrown, grenade homes near an enemy and encloses the subject in an orb, similar to Maya's phaselock ability. Effect last 5 seconds. If it has an element, the orb will deal continuous damage of that element.
+Comes in all elements
+
+=/GRENADES=
+
+=SHIELDS=
+Syringe
+
+Legendary Maliwan Spike shield
+
+"Vaccination is the key to ridding diseases, like Bandits."
+
+Effect: When an enemy hits your shield (melee or bullet), they bleed out. That bleed out damage goes to your health.
+
+Comes in all elements.
+
+
+Supply Dropper
+
+Seraph Dahl Booster Shield
+
+"Need some help, soldier?"
+
+Effect: 25% booster chance, booster gives partial health refill, partial shield refill, and some Ammo from all weapon types.
+
+
+Beast-Mode!
+
+Bandit Booster Shield
+
+"ARRRGUAAAHHH!"
+
+Effect: 20% Proc. chance, booster gives 30% dmg reduction, increased damage for all weapon types, and health regen for 30 secs.
+
+
+=/SHIELDS=

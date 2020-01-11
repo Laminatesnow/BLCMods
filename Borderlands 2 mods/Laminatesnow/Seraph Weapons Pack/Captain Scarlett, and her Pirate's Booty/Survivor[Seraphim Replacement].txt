@@ -1,0 +1,74 @@
+The Survivor
+Bandit AR, Seraphim Replacement
+
+Code: BL2(hwAAAACrlQGAZgEAAwGFxmIIxOABUAHDIQYHDBUY/v/HAeTC8AHw)
+
+"Immortalized"
+Effect: Shoots 4 grenades per shot at an enemie's foot. Boosted by Grenade damage.
+
+/\/\/\/\/\/\
+Name
+\/\/\/\/\/\/
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Title PartName Survivor
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Title:AttributePresentationDefinition_8 NoConstraintText Immortalized
+/\/\/\/\/\/\
+/Name
+\/\/\/\/\/\/
+
+/\/\/\/\/\/\
+Weapon Attributes
+\/\/\/\/\/\/
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Barrel CustomFiringModeDefinition FiringModeDefinition'GD_Iris_Weapons.FiringModes.FM_Rocket_Grenade_BoomPuppy'
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Barrel WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-0.800000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=2.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=2.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=0.080000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=5.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponReloadSpeed',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=0.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Balance:WeaponPartListCollectionDefinition_306 ElementalPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_AssaultRifle.elemental.AR_Elemental_None',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=4),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.elemental.AR_Elemental_Fire',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=5,MaxGameStageIndex=1,DefaultWeightIndex=3),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.elemental.AR_Elemental_Corrosive',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=6,MaxGameStageIndex=1,DefaultWeightIndex=3),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.elemental.AR_Elemental_Shock',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=7,MaxGameStageIndex=1,DefaultWeightIndex=3),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.elemental.AR_Elemental_Slag',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=8,MaxGameStageIndex=1,DefaultWeightIndex=3)))
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Barrel GestaltModeSkeletalMeshName AR_Barrel_Torgue
+
+set GD_Iris_Weapons.FiringModes.FM_Rocket_Grenade_BoomPuppy ProjectileDefinition GD_GrenadeMods.Projectiles.Grenade_NastySurprise
+
+set GD_Iris_Weapons.FiringModes.FM_Rocket_Grenade_BoomPuppy SpawnDirection DIRECTION_Random
+
+set GD_Iris_Weapons.FiringModes.FM_Rocket_Grenade_BoomPuppy ExplosionOverrideDefinition ExplosionCollectionDefinition'GD_Weap_Shared_Effects.Default_Elemental_Explosions'
+
+set GD_Iris_Weapons.FiringModes.FM_Rocket_Grenade_BoomPuppy ExplosionOverideInstanceDataName ExplosionOverride
+
+set GD_Iris_Weapons.FiringModes.FM_Rocket_Grenade_BoomPuppy DamageTypeDefinition WillowDamageTypeDefinition'GD_Explosive.DamageType.DmgType_Explosive_Impact'
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Barrel WeaponCardAttributes (Attribute=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',PriorityIncrease=0.500000)
+
+set GD_Orchid_RaidWeapons.Pistol.Devastator.Orchid_Seraph_Devastator_Barrel ExternalAttributeEffects ((AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=2.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
+
+/\/\/\/\/\/\
+/weapon Attributes
+\/\/\/\/\/\/
+
+/\/\/\/\/\/\
+Skin Data
+\/\/\/\/\/\/
+
+set Orchid_GunMaterials.Materials.AssaultRifle.Mati_DahlCommonAR_Seraphim VectorParameterValues ((ParameterName="p_BColorHilight",ParameterValue=(R=5.10000000,G=5.100000,B=5.100000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_BColorMidtone",ParameterValue=(R=4.100000,G=4.100000,B=4.100000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_BColorShadow",ParameterValue=(R=1.01000,G=1.01000,B=1.010000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_CColorHilight",ParameterValue=(R=0.010000,G=0.010000,B=0.010000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_CColorMidtone",ParameterValue=(R=0.010000,G=0.010000,B=0.010000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_CColorShadow",ParameterValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_AColorHilight",ParameterValue=(R=0.510000,G=0.510000,B=0.510000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_AColorMidtone",ParameterValue=(R=0.160000,G=0.160000,B=0.160000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_AColorShadow",ParameterValue=(R=0.010000,G=0.010000,B=0.010000,A=1.000000),ExpressionGUID=(A=-429590341,B=1156435294,C=-1015192901,D=687313413)),(ParameterName="p_DColor",ParameterValue=(R=8.000000,G=1.660000,B=0.020000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_EmissiveColor",ParameterValue=(R=5.000000,G=1.200000,B=0.000000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_ReflectColor",ParameterValue=(R=2.140000,G=1.150000,B=1.270000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_ReflectionChannelScale",ParameterValue=(R=0.200000,G=0.200000,B=0.200000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_PatternColor",ParameterValue=(R=2.140000,G=1.600000,B=1.150000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_PatternScalePosition",ParameterValue=(R=19.000000,G=19.000000,B=0.900000,A=0.800000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_PatternChannelScale",ParameterValue=(R=1.000000,G=0.000000,B=0.000000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_DecalColor",ParameterValue=(R=18.000000,G=18.000000,B=18.000000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_DecalScalePosition",ParameterValue=(R=17.100000,G=24.1000000,B=0.400000,A=0.500000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)),(ParameterName="p_DecalChannel",ParameterValue=(R=0.200000,G=0.000000,B=1.000000,A=1.000000),ExpressionGUID=(A=0044415645,B=0000444944,C=0054484953,D=5844444444)))
+
+set Orchid_GunMaterials.Materials.AssaultRifle.Mati_DahlCommonAR_Seraphim ScalarParameterValues ((ParameterName="p_HighlightsIntensity",ParameterValue=40.000000,ExpressionGUID=(A=-1257568432,B=1277066486,C=-723473993,D=-1144384173)),(ParameterName="p_ShadowsIntensity",ParameterValue=40.000000,ExpressionGUID=(A=437293753,B=1205147708,C=-775723903,D=1480014964)),(ParameterName="p_DecalRotate",ParameterValue=0.500000,ExpressionGUID=(A=-276527909,B=1298581551,C=856978878,D=743944047)),(ParameterName="p_UseFullColorDecal",ParameterValue=1.000000,ExpressionGUID=(A=-1064329812,B=1077705328,C=339664807,D=1869745420)),(ParameterName="p_ReplaceDecal",ParameterValue=0.000000,ExpressionGUID=(A=85863466,B=1257609701,C=-728575820,D=1337098176)))
+
+set Orchid_GunMaterials.Materials.AssaultRifle.Mati_DahlCommonAR_Seraphim TextureParameterValues ((ParameterName="p_Masks",ParameterValue=Texture2D'Weap_AssaultRifles.Tex.Weap_AssaultRifle_Comp',ExpressionGUID=(A=-330624041,B=1167251458,C=-335191907,D=-166684394)),(ParameterName="p_Diffuse",ParameterValue=Texture2D'Common_GunMaterials.CompTextures.Weap_AssaultSubSniper_Comp',ExpressionGUID=(A=1757607260,B=1326539502,C=-317215581,D=-565807463)),(ParameterName="p_NormalScopesEmissive",ParameterValue=Texture2D'Weap_AssaultRifles.Tex.Weap_AssaultRifle_Nrm',ExpressionGUID=(A=-1743872746,B=1126171774,C=119496871,D=-1952271718)),(ParameterName="p_Decal",ParameterValue=Texture2D'Common_GunMaterials.Logos.BanditEpicDecal',ExpressionGUID=(A=-923052711,B=1309861752,C=584229786,D=-1229888527)),(ParameterName="p_Pattern",ParameterValue=Texture2D'Common_GunMaterials.Patterns.Pattern_JakobsEpic_SpaltedMaple',ExpressionGUID=(A=534250533,B=1202550002,C=1578302861,D=-717876416)))
+/\/\/\/\/\/\
+/Skin Data
+\/\/\/\/\/\/
+
+
+/\/\/\/\/\/\
+Bandit Transformation
+\/\/\/\/\/\/
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Balance:WeaponPartListCollectionDefinition_306 AssociatedWeaponType WeaponTypeDefinition'GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle'
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Balance BaseDefinition WeaponBalanceDefinition'GD_Weap_AssaultRifle.A_Weapons.AR_Bandit_4_VeryRare'
+
+set GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Balance:WeaponPartListCollectionDefinition_306 BodyPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Body.AR_Body_Bandit_4',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2)))
+
+/\/\/\/\/\/\
+/Bandit Transformation
+\/\/\/\/\/\/
